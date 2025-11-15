@@ -5,4 +5,5 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://iamsurajkumar.github.io',
                 'git_url': 'https://github.com/iamsurajkumar/macrolearner',
                 'lib_path': 'macrolearner'},
-  'syms': {'macrolearner.core': {'macrolearner.core.foo': ('core.html#foo', 'macrolearner/core.py')}}}
+  'syms': { 'macrolearner.core': { 'macrolearner.core.foo': ('core.html#foo', 'macrolearner/core.py'),
+                                   'macrolearner.core.say_hello': ('core.html#say_hello', 'macrolearner/core.py')}}}
