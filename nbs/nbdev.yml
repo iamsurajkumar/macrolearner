@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "macrolearner"
+  site-url: "https://iamsurajkumar.github.io/macrolearner"
+  description: "A repository exploring the role of deep learning in macroeconomics"
+  repo-branch: main
+  repo-url: "https://github.com/iamsurajkumar/macrolearner"
