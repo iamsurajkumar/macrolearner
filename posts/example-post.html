@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting Started with Your Research Blog - Suraj Kumar</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        /* Additional styles for blog posts */
+        .post-content {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .post-content h2 {
+            font-size: 1.75rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        .post-content h3 {
+            font-size: 1.5rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+        .post-content p {
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+        .post-content code {
+            background-color: var(--bg-light);
+            padding: 0.2rem 0.4rem;
+            border-radius: 0.25rem;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background-color: var(--bg-light);
+            padding: 1rem;
+            border-radius: 0.5rem;
+            overflow-x: auto;
+            margin: 1.5rem 0;
+        }
+        .post-content pre code {
+            padding: 0;
+            background-color: transparent;
+        }
+        .post-content ul, .post-content ol {
+            margin-bottom: 1rem;
+            padding-left: 2rem;
+        }
+        .post-content li {
+            margin-bottom: 0.5rem;
+        }
+        .post-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 0.5rem;
+            margin: 1.5rem 0;
+        }
+        .post-content blockquote {
+            border-left: 4px solid var(--primary-color);
+            padding-left: 1rem;
+            margin: 1.5rem 0;
+            color: var(--text-light);
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="nav-logo">Suraj Kumar</a>
+            <ul class="nav-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../publications.html">Publications</a></li>
+                <li><a href="../blog.html" class="active">Blog</a></li>
+                <li><a href="../projects.html">Projects</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <article class="post-content">
+            <div class="post-meta">
+                <span class="date">December 18, 2025</span>
+                <span class="tag">Tutorial</span>
+            </div>
+
+            <h1>Getting Started with Your Research Blog</h1>
+
+            <p>
+                Welcome to your research blog! This is an example post that demonstrates
+                how to write and format blog posts for your portfolio website.
+            </p>
+
+            <h2>Why Blog About Your Research?</h2>
+
+            <p>
+                Blogging about your research helps you:
+            </p>
+
+            <ul>
+                <li>Share your work with a broader audience</li>
+                <li>Document your research process and insights</li>
+                <li>Build your online presence and personal brand</li>
+                <li>Connect with other researchers in your field</li>
+                <li>Improve your communication skills</li>
+            </ul>
+
+            <h2>Formatting Your Posts</h2>
+
+            <p>
+                You can use standard HTML to format your posts. Here are some examples:
+            </p>
+
+            <h3>Code Snippets</h3>
+
+            <p>
+                Include inline code like <code>import numpy as np</code> or code blocks:
+            </p>
+
+            <pre><code>def train_model(data, epochs=100):
+    """Train a machine learning model."""
+    model = create_model()
+    model.fit(data, epochs=epochs)
+    return model</code></pre>
+
+            <h3>Mathematical Notation</h3>
+
+            <p>
+                For mathematical equations, you can integrate MathJax or KaTeX. For example,
+                you could discuss optimization: minimize f(x) subject to constraints.
+            </p>
+
+            <h3>Blockquotes</h3>
+
+            <blockquote>
+                "The best way to predict the future is to invent it." - Alan Kay
+            </blockquote>
+
+            <h2>Adding Images and Figures</h2>
+
+            <p>
+                You can add images to illustrate your research findings, experimental
+                setups, or visualizations. Simply use the img tag with a relative path
+                to your image files.
+            </p>
+
+            <h2>Next Steps</h2>
+
+            <p>
+                To add more blog posts:
+            </p>
+
+            <ol>
+                <li>Copy this template to a new file in the <code>posts/</code> directory</li>
+                <li>Update the title, date, and content</li>
+                <li>Add a link to your new post in <code>blog.html</code></li>
+                <li>Commit and push your changes</li>
+            </ol>
+
+            <p>
+                Happy blogging!
+            </p>
+
+            <hr style="margin: 3rem 0; border: none; border-top: 1px solid var(--border-color);">
+
+            <p style="text-align: center;">
+                <a href="../blog.html">← Back to all posts</a>
+            </p>
+        </article>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Suraj Kumar. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
